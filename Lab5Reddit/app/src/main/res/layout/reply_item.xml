@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/message_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"></TextView>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/message_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_toEndOf="@+id/message_string"
+        android:layout_toRightOf="@+id/message_string"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/upvote"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/message_string"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="11dp"
+        android:text="UPVOTE"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/downvote"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/message_string"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/upvote"
+        android:layout_toRightOf="@+id/upvote"
+        android:text="DOWNVOTE"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/downvote"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/downvote"
+        android:layout_toRightOf="@+id/downvote"
+        android:text="DELETE"
+        android:textSize="8sp" />
+
+</RelativeLayout>

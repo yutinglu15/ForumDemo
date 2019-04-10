@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "58389299701",
+    "firebase_url": "https://lab5reddit-f89b5.firebaseio.com",
+    "project_id": "lab5reddit-f89b5",
+    "storage_bucket": "lab5reddit-f89b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58389299701:android:0bb65a83f7fff1c4",
+        "android_client_info": {
+          "package_name": "com.example.lab5reddit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58389299701-durd7mki5qrm28hmf00u3s1e5prj8qe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrhjdAxPQimivTkSkEzzwr5Ftm2Vhoak8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
